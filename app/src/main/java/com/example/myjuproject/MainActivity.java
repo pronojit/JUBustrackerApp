@@ -26,10 +26,11 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this,DriverLoginActivity.class);
                 startActivity(intent);
                 finish();
-                return;
+
 
             }
         });
+        //
 
         mCustomer.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this,StudentLoginActivity.class);
                 startActivity(intent);
                 finish();
-                return;
+                
 
             }
         });
